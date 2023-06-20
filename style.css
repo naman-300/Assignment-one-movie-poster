@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/johnwick.jpg);/*adding image of poster*/
+    font-family: "Oswald",sans-serif;/*adding fonts*/
+    font-style: italic;
+}
+.title{
+    text-align: center;/*styling title and setting its position*/
+    float: left;
+    padding: 10px 0px 0px 150px;
+    font-size: 10px;
+    color: #4B0150;
+}
+.links > menu{/*setting and stlying our links*/
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    float: right;
+}
+main{/*setting positions*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0% 0% 0% ;
+    margin-right: 250px;
+}
+.keanu/*styling individually*/
+{
+    color: #f0f0f0;
+    font-size: 30px;
+    height: 50px;
+    letter-spacing: 7px;
+}
+.chapter{/*styling individually*/
+    color: #f0f0f0;
+    font-size: 20px;
+    letter-spacing: 12px;
+    height: 0px;
+}
+.johnwick{/*styling individually*/
+    color: #4B0150;
+    font-size: 50px;
+    height: 175px;
+    padding-right: 2%;
+}
+.three{/*styling individually*/
+    color: #f0f0f0;
+    font-size: 100px;
+}
+.parabellum{/*styling individually*/
+    color: #f0f0f0;
+    font-size: 20px;
+    letter-spacing: 12px;
+}
+.content{/*styling the credits of the movie*/
+    color: brown;
+    font-size: 15px;
+    font-style: normal;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0% 7% 0% 0%;
+}
+span{/*span used for making font sizes different*/
+    font-size: 11px;
+}
+.end{/*styling the last texts*/
+    text-align: center;
+    margin-left: 35px;
+    font-size: 2em;
+    color: #f0f0f0;
+}
+h5{/*styling individually*/
+    color: #4B0150;
+    font-size: .5em;
+}
+#imax{/*styling individually*/
+    font-size: 1.2em;
+    font-style: normal;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
